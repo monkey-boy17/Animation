@@ -1,0 +1,76 @@
+.conteneur{
+    width: 500px;
+    height: 250px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+img{
+    width: 100px;
+    
+}
+
+#premiere{
+    position: absolute;
+    top: 0px;
+    left: 20px;
+}
+
+.mask1{
+    width: 100px;
+    height: 100px;
+    opacity: 50%;
+    background-color: aquamarine;
+    
+
+}
+
+#deuxieme{
+    position: absolute;
+    top: 0px;
+    left: 160px;
+
+}
+
+#troisieme{
+    position: absolute;
+    top: 0px;
+    left: 300px;
+
+}
+
+
+
+.bar{
+
+width: 100px;
+height: 20px;
+background-color: blueviolet;
+top: 115px;
+
+}
+
+#un{
+    left: 20px;
+
+}
+
+#deux{
+    left: 160px;
+}
+
+#trois{
+    left: 300px;
+}
+
+.mask{
+    position: absolute;
+    top:20px;
+    transition: 1s linear;
+}
+
+.mask:hover{
+    top:-120px;
+}
+
+
